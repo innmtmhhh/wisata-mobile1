@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:wisata_mobile/latihanmodul/pertemuan5.dart';
 import 'package:wisata_mobile/latihanmodul/pertemuan6.dart';
+import 'package:wisata_mobile/screen/home_page.dart';
 import 'package:wisata_mobile/screen/lading_page.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: LandingPageOne(),
+      home: HomePage(),
     );
   }
 }
